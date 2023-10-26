@@ -1,11 +1,13 @@
-./gradlew test  +
-./gradlew clean test  +
-./gradlew clean loginTests  +
+./gradlew test  done
+./gradlew clean test  done
+./gradlew clean loginTests  done
+./gradlew clean -Dgroups=smoke shortTests  done
 ./gradlew clean -Pbrowser=firefox loginTests  -
-./gradlew clean -Pbrowser=chrome loginTests  +
+./gradlew clean -Pbrowser=chrome loginTests  done
+./gradlew clean -Dsuite=login shortTests done
 ./gradlew clean -Pbrowser=firefox -Dsuite=login shortTests  -
 ./gradlew clean -Pbrowser=firefox -Dgroups=smoke shortTests  -
-./gradlew clean -Dgroups=smoke shortTests  -
-./gradlew clean -Dgroups=regression -Ptarget=prod shortTests  +
-./gradlew clean -Dgroups=regression -Ptarget=fake shortTests  +
+./gradlew clean -Dgroups=smoke shortTests  done
+./gradlew clean -Dgroups=regression -Ptarget=prod shortTests  done
+./gradlew clean -Dgroups=regression -Ptarget=fake shortTests  done
 ./gradlew clean -Pbrowser=firefox -Dgroups=smoke,regression shortTests  !=

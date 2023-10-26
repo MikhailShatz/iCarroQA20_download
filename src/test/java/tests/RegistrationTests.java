@@ -6,14 +6,14 @@ import org.testng.annotations.*;
 
 public class RegistrationTests extends BaseTest{
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preconditionsLogin() {
 
         logoutIfLogin();
 
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postConditionsLogin() {
         if(app.getUserHelper().popUpMessageSuccessAfterRegistrationExist())
             app.getUserHelper().clickOkPopUpSuccessLogin();

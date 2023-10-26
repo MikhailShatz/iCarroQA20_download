@@ -29,7 +29,7 @@ test {
 
 task loginTests(type:Test) {
     useTestNG() {
-        suites 'src/test/resources/testNG.xml'
+        suites 'src//test//resources//testNG.xml'
     }
     if(project.hasProperty('browser')){
         systemProperty 'browser', "${browser}"
@@ -43,9 +43,9 @@ task shortTests(type: Test) {
         }
         def suite = System.getProperty('suite')
         if(suite.equals('login')) {
-            suites 'src/test/resources/testNG.xml'
+            suites 'src//test//resources//testNG.xml'
         } else {
-            suites 'src/test/resources/shorttests.xml'
+            suites 'src//test//resources//shorttests.xml'
         }
         def groups = System.getProperty('groups')
         if(groups != null) {

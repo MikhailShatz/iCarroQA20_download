@@ -1,0 +1,84 @@
+2023-10-26 22:08:12,970 INFO m.ApplicationManager [ApplicationManager.java:29] created chrome browser
+2023-10-26 22:08:14,399 INFO m.ApplicationManager [ApplicationManager.java:35] open page: https://ilcarro.web.app/search
+2023-10-26 22:08:14,544 INFO m.TestNGListener [TestNGListener.java:51] start test - onstart - : smoke
+2023-10-26 22:08:14,562 INFO t.BaseTest [BaseTest.java:45] ---------------------------------------
+2023-10-26 22:08:14,562 INFO t.BaseTest [BaseTest.java:46] started method: positiveRegistration
+2023-10-26 22:08:14,562 INFO t.BaseTest [BaseTest.java:47] started method with params: []
+2023-10-26 22:08:14,563 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-26 22:08:29,638 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-26 22:08:29,639 INFO m.TestNGListener [TestNGListener.java:16] started test: positiveRegistration
+2023-10-26 22:08:29,639 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-26 22:08:29,662 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-26 22:08:29,724 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-26 22:08:29,742 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-26 22:08:29,857 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-26 22:08:29,880 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-26 22:08:29,982 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-26 22:08:29,999 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-26 22:08:30,117 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-26 22:08:30,140 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-26 22:08:30,233 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-26 22:08:30,248 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-26 22:08:30,493 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-26 22:08:30,512 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-26 22:08:30,550 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-26 22:08:31,807 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-26 22:08:31,818 INFO m.WDListener [WDListener.java:173] get text from the element with text: Registered
+2023-10-26 22:08:31,826 INFO m.WDListener [WDListener.java:179] got the text successful
+2023-10-26 22:08:31,829 INFO m.TestNGListener [TestNGListener.java:22] test success: positiveRegistration
+2023-10-26 22:08:31,830 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-26 22:08:31,842 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-26 22:08:31,843 INFO m.WDListener [WDListener.java:117] start executed test
+2023-10-26 22:08:31,854 INFO m.WDListener [WDListener.java:123] script executed success
+2023-10-26 22:08:37,134 INFO t.BaseTest [BaseTest.java:52] stopped method: positiveRegistration
+2023-10-26 22:08:37,134 INFO t.BaseTest [BaseTest.java:53] stopped method with params: []
+2023-10-26 22:08:37,138 INFO t.BaseTest [BaseTest.java:45] ---------------------------------------
+2023-10-26 22:08:37,138 INFO t.BaseTest [BaseTest.java:46] started method: negativePasswordWithoutSymbol
+2023-10-26 22:08:37,138 INFO t.BaseTest [BaseTest.java:47] started method with params: []
+2023-10-26 22:08:37,139 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-26 22:08:37,150 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-26 22:08:37,150 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-26 22:08:37,168 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-26 22:08:37,218 INFO m.TestNGListener [TestNGListener.java:16] started test: negativePasswordWithoutSymbol
+2023-10-26 22:08:37,218 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-26 22:08:37,232 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-26 22:08:37,270 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-26 22:08:37,293 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-26 22:08:37,419 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-26 22:08:37,434 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-26 22:08:37,527 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-26 22:08:37,544 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-26 22:08:37,576 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-26 22:08:38,583 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-26 22:08:38,589 INFO m.WDListener [WDListener.java:173] get text from the element with text: "Login or Password incorrect"
+2023-10-26 22:08:38,597 INFO m.WDListener [WDListener.java:179] got the text successful
+2023-10-26 22:08:38,598 INFO m.TestNGListener [TestNGListener.java:22] test success: negativePasswordWithoutSymbol
+2023-10-26 22:08:38,598 INFO m.WDListener [WDListener.java:117] start executed test
+2023-10-26 22:08:38,613 INFO m.WDListener [WDListener.java:123] script executed success
+2023-10-26 22:08:43,807 INFO t.BaseTest [BaseTest.java:52] stopped method: negativePasswordWithoutSymbol
+2023-10-26 22:08:43,807 INFO t.BaseTest [BaseTest.java:53] stopped method with params: []
+2023-10-26 22:08:43,808 INFO t.BaseTest [BaseTest.java:45] ---------------------------------------
+2023-10-26 22:08:43,808 INFO t.BaseTest [BaseTest.java:46] started method: positiveLoginUserDTO
+2023-10-26 22:08:43,808 INFO t.BaseTest [BaseTest.java:47] started method with params: []
+2023-10-26 22:08:43,809 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-26 22:08:58,841 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-26 22:08:58,842 INFO m.TestNGListener [TestNGListener.java:16] started test: positiveLoginUserDTO
+2023-10-26 22:08:58,843 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-26 22:08:58,856 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-26 22:08:58,923 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-26 22:08:58,935 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-26 22:08:59,061 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-26 22:08:59,072 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-26 22:08:59,171 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-26 22:08:59,183 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-26 22:08:59,218 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-26 22:08:59,791 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-26 22:08:59,799 INFO m.WDListener [WDListener.java:173] get text from the element with text: Logged in success
+2023-10-26 22:08:59,804 INFO m.WDListener [WDListener.java:179] got the text successful
+2023-10-26 22:08:59,805 INFO m.TestNGListener [TestNGListener.java:22] test success: positiveLoginUserDTO
+2023-10-26 22:08:59,806 INFO m.WDListener [WDListener.java:117] start executed test
+2023-10-26 22:08:59,821 INFO m.WDListener [WDListener.java:123] script executed success
+2023-10-26 22:09:05,044 INFO t.BaseTest [BaseTest.java:52] stopped method: positiveLoginUserDTO
+2023-10-26 22:09:05,044 INFO t.BaseTest [BaseTest.java:53] stopped method with params: []
+2023-10-26 22:09:05,045 INFO m.TestNGListener [TestNGListener.java:57] all code executed: passed tests: [ResultMap map=[[TestResult name=negativePasswordWithoutSymbol status=SUCCESS method=LoginTests.negativePasswordWithoutSymbol()[pri:0, instance:tests.LoginTests@35aea049] output={null}], [TestResult name=positiveRegistration status=SUCCESS method=RegistrationTests.positiveRegistration()[pri:0, instance:tests.RegistrationTests@4d0f2471] output={null}], [TestResult name=positiveLoginUserDTO status=SUCCESS method=LoginTests.positiveLoginUserDTO()[pri:0, instance:tests.LoginTests@35aea049] output={null}]]]
+2023-10-26 22:09:05,045 INFO m.TestNGListener [TestNGListener.java:58] all code executed: failed tests: [ResultMap map=[]]
