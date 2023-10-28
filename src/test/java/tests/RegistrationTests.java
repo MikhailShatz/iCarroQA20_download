@@ -1,5 +1,7 @@
 package tests;
 
+import data.DataProviderLogin;
+import data.DataProviderReg;
 import dto.UserDtoLombok;
 import org.testng.Assert;
 import org.testng.annotations.*;
@@ -36,17 +38,23 @@ public class RegistrationTests extends BaseTest{
         app.getUserHelper().fillRegistrationForm(user);
         Assert.assertTrue(app.getUserHelper().validatePopUpMessageSuccessAfterRegistration());
     }
+//dataProvider = "regCSV", dataProviderClass = DataProviderReg.class
+@Test ( dataProvider = "regCSV", dataProviderClass = DataProviderReg.class)
+    public void positiveRegistration(UserDtoLombok userDP) {
+        app.getUserHelper().fillRegistrationForm(userDP);
+        Assert.assertTrue(app.getUserHelper().validatePopUpMessageSuccessAfterRegistration());
+    }
+//dataProvider = "negativeEmailDataReg", dataProviderClass = DataProviderReg.class
+    @Test(dataProvider = "negativeRegCSV", dataProviderClass = DataProviderReg.class)
+    public void negativeRegistrationWrongEmail(UserDtoLombok userDP) {
+//        UserDtoLombok user = UserDtoLombok.builder()
+//                .email("abc@")
+//                .password("123456Aa$")
+//                .lastName("abdfg")
+//                .name("test")
+//                .build();
 
-    @Test
-    public void negativeRegistrationWrongEmail() {
-        UserDtoLombok user = UserDtoLombok.builder()
-                .email("abc@")
-                .password("123456Aa$")
-                .lastName("abdfg")
-                .name("test")
-                .build();
-
-        app.getUserHelper().fillNegativeRegistrationForm(user);
+        app.getUserHelper().fillNegativeRegistrationForm(userDP);
         Assert.assertTrue(app.getUserHelper().validateMessageIncorrectEmailReg());
     }
 

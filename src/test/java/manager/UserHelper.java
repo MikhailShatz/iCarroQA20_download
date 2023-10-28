@@ -70,7 +70,10 @@ public class UserHelper extends BaseHelper{
         typeTextBase(inputLastNameReg, user.getLastName());
         typeTextBase(inputEmailReg, user.getEmail());
         typeTextBase(inputPasswordReg, user.getPassword());
-        clickByXY(checkBoxReg, 5,15);
+       //clickByXY(checkBoxReg, 5,15);
+        Actions act = new Actions(driver);
+        act.sendKeys(Keys.TAB).perform();
+        jsClickBase(btnRegNewUser);
         clickBase(btnUallaReg);
     }
 
@@ -83,6 +86,8 @@ public class UserHelper extends BaseHelper{
         Actions act = new Actions(driver);
         act.sendKeys(Keys.TAB).perform();
         jsClickBase(btnRegNewUser);
+//        clickBase(btnUallaReg);
+//        jsClickBase(btnRegNewUser);
 
     }
 

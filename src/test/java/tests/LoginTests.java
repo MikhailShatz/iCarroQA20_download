@@ -1,5 +1,6 @@
 package tests;
 
+import data.DataProviderLogin;
 import dto.UserDTO;
 import dto.UserDTOWith;
 import dto.UserDtoLombok;
@@ -37,25 +38,26 @@ public class LoginTests extends BaseTest{
         app.getUserHelper().login(userDTOWith);
         Assert.assertTrue(app.getUserHelper().validatePopUpMessageSuccessAfterLogin());
     }
+//dataProvider = "positiveDataLogin", dataProviderClass = DataProviderLogin.class
+    @Test(dataProvider = "loginCSV", dataProviderClass = DataProviderLogin.class)
+    public void positiveLogin(UserDtoLombok userDP) {
 
-    @Test()
-    public void positiveLogin() {
-        app.getUserHelper().loginUserDtoLombok(userDtoLombok);
-//        try {
-//            Thread.sleep(10000);
-//        } catch (InterruptedException e) {
-//            throw new RuntimeException(e);
-//        }
+//         UserDtoLombok userDtoLombok = UserDtoLombok.builder()
+//            .email("testqa20@gmail.com")
+//            .password("123456Aa$")
+//            .build();
+
+        app.getUserHelper().loginUserDtoLombok(userDP);
         Assert.assertTrue(app.getUserHelper().validatePopUpMessageSuccessAfterLogin());
     }
-
-    @Test(groups = {"smoke"})
-    public void negativePasswordWithoutSymbol() {
-        UserDtoLombok userDtoLombok = UserDtoLombok.builder()
-                .email("testqa20@gmail.com")
-                .password("123456Aaa")
-                .build();
-        app.getUserHelper().loginUserDtoLombok(userDtoLombok);
+//groups = {"smoke"},dataProvider = "negativePasswordDataLogin", dataProviderClass = DataProviderLogin.class
+    @Test(dataProvider = "negativeLoginCSV", dataProviderClass = DataProviderLogin.class )
+    public void negativePasswordWithoutSymbol(UserDtoLombok userDP) {
+//        UserDtoLombok userDtoLombok = UserDtoLombok.builder()
+//                .email("testqa20@gmail.com")
+//                .password("123456Aaa")
+//                .build();
+        app.getUserHelper().loginUserDtoLombok(userDP);
         Assert.assertTrue(app.getUserHelper().validatePopUpMessageLoginIncorrect());
     }
 

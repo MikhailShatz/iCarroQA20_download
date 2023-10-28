@@ -1,0 +1,135 @@
+2023-10-28 12:26:22,682 INFO m.ApplicationManager [ApplicationManager.java:29] created chrome browser
+2023-10-28 12:26:24,364 INFO m.ApplicationManager [ApplicationManager.java:35] open page: https://ilcarro.web.app/search
+2023-10-28 12:26:24,501 INFO m.TestNGListener [TestNGListener.java:51] start test - onstart - : Gradle test
+2023-10-28 12:26:24,520 INFO t.BaseTest [BaseTest.java:45] ---------------------------------------
+2023-10-28 12:26:24,520 INFO t.BaseTest [BaseTest.java:46] started method: positiveRegistration
+2023-10-28 12:26:24,520 INFO t.BaseTest [BaseTest.java:47] started method with params: []
+2023-10-28 12:26:24,521 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:39,534 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:39,535 INFO m.TestNGListener [TestNGListener.java:16] started test: positiveRegistration
+2023-10-28 12:26:39,536 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:39,551 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:39,620 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:39,644 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:39,753 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:39,767 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:39,859 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:39,878 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:39,995 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:40,015 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:40,134 INFO m.WDListener [WDListener.java:117] start executed test
+2023-10-28 12:26:40,150 INFO m.WDListener [WDListener.java:123] script executed success
+2023-10-28 12:26:40,151 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:40,170 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:40,209 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:41,783 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:41,796 INFO m.WDListener [WDListener.java:173] get text from the element with text: Registered
+2023-10-28 12:26:41,803 INFO m.WDListener [WDListener.java:179] got the text successful
+2023-10-28 12:26:41,806 INFO m.TestNGListener [TestNGListener.java:22] test success: positiveRegistration
+2023-10-28 12:26:41,807 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:41,819 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:41,819 INFO m.WDListener [WDListener.java:117] start executed test
+2023-10-28 12:26:41,833 INFO m.WDListener [WDListener.java:123] script executed success
+2023-10-28 12:26:47,399 INFO t.BaseTest [BaseTest.java:52] stopped method: positiveRegistration
+2023-10-28 12:26:47,400 INFO t.BaseTest [BaseTest.java:53] stopped method with params: []
+2023-10-28 12:26:47,405 INFO t.BaseTest [BaseTest.java:45] ---------------------------------------
+2023-10-28 12:26:47,405 INFO t.BaseTest [BaseTest.java:46] started method: positiveRegistration
+2023-10-28 12:26:47,405 INFO t.BaseTest [BaseTest.java:47] started method with params: [dto.UserDtoLombok arg0]
+2023-10-28 12:26:47,405 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:47,420 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:47,421 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:47,434 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:47,490 INFO m.TestNGListener [TestNGListener.java:16] started test: positiveRegistration
+2023-10-28 12:26:47,491 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:47,512 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:47,557 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:47,574 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:47,669 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:47,683 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:47,771 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:47,792 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:47,907 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:47,919 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:48,024 INFO m.WDListener [WDListener.java:117] start executed test
+2023-10-28 12:26:48,040 INFO m.WDListener [WDListener.java:123] script executed success
+2023-10-28 12:26:48,041 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:48,060 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:48,098 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:49,001 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:49,007 INFO m.WDListener [WDListener.java:173] get text from the element with text: Registered
+2023-10-28 12:26:49,013 INFO m.WDListener [WDListener.java:179] got the text successful
+2023-10-28 12:26:49,014 INFO m.TestNGListener [TestNGListener.java:22] test success: positiveRegistration
+2023-10-28 12:26:49,014 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:49,024 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:49,024 INFO m.WDListener [WDListener.java:117] start executed test
+2023-10-28 12:26:49,040 INFO m.WDListener [WDListener.java:123] script executed success
+2023-10-28 12:26:54,337 INFO t.BaseTest [BaseTest.java:52] stopped method: positiveRegistration
+2023-10-28 12:26:54,337 INFO t.BaseTest [BaseTest.java:53] stopped method with params: [dto.UserDtoLombok arg0]
+2023-10-28 12:26:54,338 INFO t.BaseTest [BaseTest.java:45] ---------------------------------------
+2023-10-28 12:26:54,338 INFO t.BaseTest [BaseTest.java:46] started method: positiveRegistration
+2023-10-28 12:26:54,338 INFO t.BaseTest [BaseTest.java:47] started method with params: [dto.UserDtoLombok arg0]
+2023-10-28 12:26:54,338 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:54,358 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:54,359 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:54,372 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:54,417 INFO m.TestNGListener [TestNGListener.java:16] started test: positiveRegistration
+2023-10-28 12:26:54,418 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:54,433 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:54,475 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:54,497 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:54,597 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:54,604 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:54,698 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:54,714 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:54,827 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:54,839 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:54,946 INFO m.WDListener [WDListener.java:117] start executed test
+2023-10-28 12:26:54,961 INFO m.WDListener [WDListener.java:123] script executed success
+2023-10-28 12:26:54,961 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:54,979 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:55,016 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:55,402 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:55,408 INFO m.WDListener [WDListener.java:173] get text from the element with text: Registered
+2023-10-28 12:26:55,415 INFO m.WDListener [WDListener.java:179] got the text successful
+2023-10-28 12:26:55,415 INFO m.TestNGListener [TestNGListener.java:22] test success: positiveRegistration
+2023-10-28 12:26:55,416 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:26:55,429 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:26:55,429 INFO m.WDListener [WDListener.java:117] start executed test
+2023-10-28 12:26:55,445 INFO m.WDListener [WDListener.java:123] script executed success
+2023-10-28 12:27:00,877 INFO t.BaseTest [BaseTest.java:52] stopped method: positiveRegistration
+2023-10-28 12:27:00,877 INFO t.BaseTest [BaseTest.java:53] stopped method with params: [dto.UserDtoLombok arg0]
+2023-10-28 12:27:00,878 INFO t.BaseTest [BaseTest.java:45] ---------------------------------------
+2023-10-28 12:27:00,878 INFO t.BaseTest [BaseTest.java:46] started method: positiveRegistration
+2023-10-28 12:27:00,878 INFO t.BaseTest [BaseTest.java:47] started method with params: [dto.UserDtoLombok arg0]
+2023-10-28 12:27:00,878 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:27:00,890 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:27:00,890 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:27:00,904 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:27:00,948 INFO m.TestNGListener [TestNGListener.java:16] started test: positiveRegistration
+2023-10-28 12:27:00,949 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:27:00,968 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:27:01,009 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:27:01,030 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:27:01,124 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:27:01,141 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:27:01,234 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:27:01,250 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:27:01,377 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:27:01,390 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:27:01,497 INFO m.WDListener [WDListener.java:117] start executed test
+2023-10-28 12:27:01,513 INFO m.WDListener [WDListener.java:123] script executed success
+2023-10-28 12:27:01,513 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:27:01,530 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:27:01,566 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:27:02,454 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:27:02,460 INFO m.WDListener [WDListener.java:173] get text from the element with text: Registered
+2023-10-28 12:27:02,466 INFO m.WDListener [WDListener.java:179] got the text successful
+2023-10-28 12:27:02,466 INFO m.TestNGListener [TestNGListener.java:22] test success: positiveRegistration
+2023-10-28 12:27:02,468 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:27:02,485 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:27:02,485 INFO m.WDListener [WDListener.java:117] start executed test
+2023-10-28 12:27:02,501 INFO m.WDListener [WDListener.java:123] script executed success
+2023-10-28 12:27:07,983 INFO t.BaseTest [BaseTest.java:52] stopped method: positiveRegistration
+2023-10-28 12:27:07,983 INFO t.BaseTest [BaseTest.java:53] stopped method with params: [dto.UserDtoLombok arg0]
+2023-10-28 12:27:07,985 INFO m.TestNGListener [TestNGListener.java:57] all code executed: passed tests: [ResultMap map=[[TestResult name=positiveRegistration status=SUCCESS method=RegistrationTests.positiveRegistration()[pri:0, instance:tests.RegistrationTests@662b4c69] output={null}], [TestResult name=positiveRegistration status=SUCCESS method=RegistrationTests.positiveRegistration(dto.UserDtoLombok)[pri:0, instance:tests.RegistrationTests@662b4c69] output={null}], [TestResult name=positiveRegistration status=SUCCESS method=RegistrationTests.positiveRegistration(dto.UserDtoLombok)[pri:0, instance:tests.RegistrationTests@662b4c69] output={null}], [TestResult name=positiveRegistration status=SUCCESS method=RegistrationTests.positiveRegistration(dto.UserDtoLombok)[pri:0, instance:tests.RegistrationTests@662b4c69] output={null}]]]
+2023-10-28 12:27:07,985 INFO m.TestNGListener [TestNGListener.java:58] all code executed: failed tests: [ResultMap map=[]]

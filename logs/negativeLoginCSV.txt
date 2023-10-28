@@ -1,0 +1,74 @@
+2023-10-28 12:39:01,350 INFO m.ApplicationManager [ApplicationManager.java:29] created chrome browser
+2023-10-28 12:39:03,101 INFO m.ApplicationManager [ApplicationManager.java:35] open page: https://ilcarro.web.app/search
+2023-10-28 12:39:03,233 INFO m.TestNGListener [TestNGListener.java:51] start test - onstart - : Gradle test
+2023-10-28 12:39:03,253 INFO t.BaseTest [BaseTest.java:45] ---------------------------------------
+2023-10-28 12:39:03,253 INFO t.BaseTest [BaseTest.java:46] started method: negativePasswordWithoutSymbol
+2023-10-28 12:39:03,253 INFO t.BaseTest [BaseTest.java:47] started method with params: [dto.UserDtoLombok arg0]
+2023-10-28 12:39:03,254 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:39:18,313 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:39:18,314 INFO m.TestNGListener [TestNGListener.java:16] started test: negativePasswordWithoutSymbol
+2023-10-28 12:39:18,314 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:39:18,330 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:39:18,397 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:39:18,423 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:39:18,560 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:39:18,577 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:39:18,672 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:39:18,688 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:39:18,727 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:39:20,358 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:39:20,371 INFO m.WDListener [WDListener.java:173] get text from the element with text: "Login or Password incorrect"
+2023-10-28 12:39:20,378 INFO m.WDListener [WDListener.java:179] got the text successful
+2023-10-28 12:39:20,381 INFO m.TestNGListener [TestNGListener.java:22] test success: negativePasswordWithoutSymbol
+2023-10-28 12:39:20,382 INFO m.WDListener [WDListener.java:117] start executed test
+2023-10-28 12:39:20,407 INFO m.WDListener [WDListener.java:123] script executed success
+2023-10-28 12:39:25,747 INFO t.BaseTest [BaseTest.java:52] stopped method: negativePasswordWithoutSymbol
+2023-10-28 12:39:25,747 INFO t.BaseTest [BaseTest.java:53] stopped method with params: [dto.UserDtoLombok arg0]
+2023-10-28 12:39:25,748 INFO t.BaseTest [BaseTest.java:45] ---------------------------------------
+2023-10-28 12:39:25,748 INFO t.BaseTest [BaseTest.java:46] started method: negativePasswordWithoutSymbol
+2023-10-28 12:39:25,748 INFO t.BaseTest [BaseTest.java:47] started method with params: [dto.UserDtoLombok arg0]
+2023-10-28 12:39:25,749 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:39:40,764 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:39:40,764 INFO m.TestNGListener [TestNGListener.java:16] started test: negativePasswordWithoutSymbol
+2023-10-28 12:39:40,765 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:39:40,779 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:39:40,817 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:39:40,828 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:39:40,940 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:39:40,952 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:39:41,050 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:39:41,061 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:39:41,097 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:39:41,922 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:39:41,929 INFO m.WDListener [WDListener.java:173] get text from the element with text: "Login or Password incorrect"
+2023-10-28 12:39:41,935 INFO m.WDListener [WDListener.java:179] got the text successful
+2023-10-28 12:39:41,936 INFO m.TestNGListener [TestNGListener.java:22] test success: negativePasswordWithoutSymbol
+2023-10-28 12:39:41,936 INFO m.WDListener [WDListener.java:117] start executed test
+2023-10-28 12:39:41,953 INFO m.WDListener [WDListener.java:123] script executed success
+2023-10-28 12:39:47,375 INFO t.BaseTest [BaseTest.java:52] stopped method: negativePasswordWithoutSymbol
+2023-10-28 12:39:47,377 INFO t.BaseTest [BaseTest.java:53] stopped method with params: [dto.UserDtoLombok arg0]
+2023-10-28 12:39:47,377 INFO t.BaseTest [BaseTest.java:45] ---------------------------------------
+2023-10-28 12:39:47,377 INFO t.BaseTest [BaseTest.java:46] started method: negativePasswordWithoutSymbol
+2023-10-28 12:39:47,377 INFO t.BaseTest [BaseTest.java:47] started method with params: [dto.UserDtoLombok arg0]
+2023-10-28 12:39:47,378 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:40:02,411 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:40:02,412 INFO m.TestNGListener [TestNGListener.java:16] started test: negativePasswordWithoutSymbol
+2023-10-28 12:40:02,412 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:40:02,428 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:40:02,469 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:40:02,492 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:40:02,605 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:40:02,616 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:40:02,712 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:40:02,726 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:40:02,761 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:40:03,578 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:40:03,585 INFO m.WDListener [WDListener.java:173] get text from the element with text: "Login or Password incorrect"
+2023-10-28 12:40:03,592 INFO m.WDListener [WDListener.java:179] got the text successful
+2023-10-28 12:40:03,594 INFO m.TestNGListener [TestNGListener.java:22] test success: negativePasswordWithoutSymbol
+2023-10-28 12:40:03,594 INFO m.WDListener [WDListener.java:117] start executed test
+2023-10-28 12:40:03,609 INFO m.WDListener [WDListener.java:123] script executed success
+2023-10-28 12:40:09,096 INFO t.BaseTest [BaseTest.java:52] stopped method: negativePasswordWithoutSymbol
+2023-10-28 12:40:09,096 INFO t.BaseTest [BaseTest.java:53] stopped method with params: [dto.UserDtoLombok arg0]
+2023-10-28 12:40:09,097 INFO m.TestNGListener [TestNGListener.java:57] all code executed: passed tests: [ResultMap map=[[TestResult name=negativePasswordWithoutSymbol status=SUCCESS method=LoginTests.negativePasswordWithoutSymbol(dto.UserDtoLombok)[pri:0, instance:tests.LoginTests@fba92d3] output={null}], [TestResult name=negativePasswordWithoutSymbol status=SUCCESS method=LoginTests.negativePasswordWithoutSymbol(dto.UserDtoLombok)[pri:0, instance:tests.LoginTests@fba92d3] output={null}], [TestResult name=negativePasswordWithoutSymbol status=SUCCESS method=LoginTests.negativePasswordWithoutSymbol(dto.UserDtoLombok)[pri:0, instance:tests.LoginTests@fba92d3] output={null}]]]
+2023-10-28 12:40:09,099 INFO m.TestNGListener [TestNGListener.java:58] all code executed: failed tests: [ResultMap map=[]]

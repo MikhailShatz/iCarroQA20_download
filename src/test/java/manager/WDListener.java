@@ -137,7 +137,7 @@ public class WDListener extends AbstractWebDriverEventListener {
     public void onException(Throwable throwable, WebDriver driver) {
         super.onException(throwable, driver);
         logger.info("start on exception in WDListener class");
-        String fileName ="C:\\QA_Projects\\iCarroQA20-main\\src\\test\\screenshots/screenshot-"
+        String fileName ="src/test/screenshots/screenshot-"
                 + DatesUtils.getDateString()+ ".png";
         logger.info("created name for the screenshot: " + fileName);
         logger.error(throwable.getMessage());

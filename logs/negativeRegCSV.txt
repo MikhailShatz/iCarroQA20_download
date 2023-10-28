@@ -1,0 +1,86 @@
+2023-10-28 12:52:13,032 INFO m.ApplicationManager [ApplicationManager.java:29] created chrome browser
+2023-10-28 12:52:24,924 INFO m.ApplicationManager [ApplicationManager.java:35] open page: https://ilcarro.web.app/search
+2023-10-28 12:52:25,066 INFO m.TestNGListener [TestNGListener.java:51] start test - onstart - : Gradle test
+2023-10-28 12:52:25,088 INFO t.BaseTest [BaseTest.java:45] ---------------------------------------
+2023-10-28 12:52:25,089 INFO t.BaseTest [BaseTest.java:46] started method: negativeRegistrationWrongEmail
+2023-10-28 12:52:25,089 INFO t.BaseTest [BaseTest.java:47] started method with params: [dto.UserDtoLombok arg0]
+2023-10-28 12:52:25,090 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:52:40,103 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:52:40,104 INFO m.TestNGListener [TestNGListener.java:16] started test: negativeRegistrationWrongEmail
+2023-10-28 12:52:40,104 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:52:40,119 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:52:40,173 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:52:40,198 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:52:40,308 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:52:40,323 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:52:40,415 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:52:40,434 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:52:40,547 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:52:40,571 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:52:40,706 INFO m.WDListener [WDListener.java:117] start executed test
+2023-10-28 12:52:40,721 INFO m.WDListener [WDListener.java:123] script executed success
+2023-10-28 12:52:40,721 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:52:40,741 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:52:40,754 INFO m.WDListener [WDListener.java:173] get text from the element with text: Wrong email format
+2023-10-28 12:52:40,761 INFO m.WDListener [WDListener.java:179] got the text successful
+2023-10-28 12:52:40,765 INFO m.TestNGListener [TestNGListener.java:22] test success: negativeRegistrationWrongEmail
+2023-10-28 12:52:40,765 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:52:55,822 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:53:01,313 INFO t.BaseTest [BaseTest.java:52] stopped method: negativeRegistrationWrongEmail
+2023-10-28 12:53:01,313 INFO t.BaseTest [BaseTest.java:53] stopped method with params: [dto.UserDtoLombok arg0]
+2023-10-28 12:53:01,313 INFO t.BaseTest [BaseTest.java:45] ---------------------------------------
+2023-10-28 12:53:01,313 INFO t.BaseTest [BaseTest.java:46] started method: negativeRegistrationWrongEmail
+2023-10-28 12:53:01,313 INFO t.BaseTest [BaseTest.java:47] started method with params: [dto.UserDtoLombok arg0]
+2023-10-28 12:53:01,315 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:53:16,351 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:53:16,352 INFO m.TestNGListener [TestNGListener.java:16] started test: negativeRegistrationWrongEmail
+2023-10-28 12:53:16,352 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:53:16,370 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:53:16,414 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:53:16,433 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:53:16,542 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:53:16,557 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:53:16,648 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:53:16,667 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:53:16,781 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:53:16,808 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:53:16,927 INFO m.WDListener [WDListener.java:117] start executed test
+2023-10-28 12:53:16,945 INFO m.WDListener [WDListener.java:123] script executed success
+2023-10-28 12:53:16,945 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:53:16,963 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:53:16,973 INFO m.WDListener [WDListener.java:173] get text from the element with text: Wrong email format
+2023-10-28 12:53:16,983 INFO m.WDListener [WDListener.java:179] got the text successful
+2023-10-28 12:53:16,983 INFO m.TestNGListener [TestNGListener.java:22] test success: negativeRegistrationWrongEmail
+2023-10-28 12:53:16,984 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:53:32,057 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:53:37,495 INFO t.BaseTest [BaseTest.java:52] stopped method: negativeRegistrationWrongEmail
+2023-10-28 12:53:37,495 INFO t.BaseTest [BaseTest.java:53] stopped method with params: [dto.UserDtoLombok arg0]
+2023-10-28 12:53:37,496 INFO t.BaseTest [BaseTest.java:45] ---------------------------------------
+2023-10-28 12:53:37,496 INFO t.BaseTest [BaseTest.java:46] started method: negativeRegistrationWrongEmail
+2023-10-28 12:53:37,496 INFO t.BaseTest [BaseTest.java:47] started method with params: [dto.UserDtoLombok arg0]
+2023-10-28 12:53:37,496 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:53:52,552 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:53:52,553 INFO m.TestNGListener [TestNGListener.java:16] started test: negativeRegistrationWrongEmail
+2023-10-28 12:53:52,553 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:53:52,572 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:53:52,621 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:53:52,633 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:53:52,744 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:53:52,761 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:53:52,853 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:53:52,868 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:53:52,983 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:53:52,994 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:53:53,098 INFO m.WDListener [WDListener.java:117] start executed test
+2023-10-28 12:53:53,114 INFO m.WDListener [WDListener.java:123] script executed success
+2023-10-28 12:53:53,114 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:53:53,135 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:53:53,146 INFO m.WDListener [WDListener.java:173] get text from the element with text: Wrong email format
+2023-10-28 12:53:53,152 INFO m.WDListener [WDListener.java:179] got the text successful
+2023-10-28 12:53:53,154 INFO m.TestNGListener [TestNGListener.java:22] test success: negativeRegistrationWrongEmail
+2023-10-28 12:53:53,154 INFO m.WDListener [WDListener.java:85] start method click
+2023-10-28 12:54:08,216 INFO m.WDListener [WDListener.java:91] done method click
+2023-10-28 12:54:13,599 INFO t.BaseTest [BaseTest.java:52] stopped method: negativeRegistrationWrongEmail
+2023-10-28 12:54:13,599 INFO t.BaseTest [BaseTest.java:53] stopped method with params: [dto.UserDtoLombok arg0]
+2023-10-28 12:54:13,602 INFO m.TestNGListener [TestNGListener.java:57] all code executed: passed tests: [ResultMap map=[[TestResult name=negativeRegistrationWrongEmail status=SUCCESS method=RegistrationTests.negativeRegistrationWrongEmail(dto.UserDtoLombok)[pri:0, instance:tests.RegistrationTests@662b4c69] output={null}], [TestResult name=negativeRegistrationWrongEmail status=SUCCESS method=RegistrationTests.negativeRegistrationWrongEmail(dto.UserDtoLombok)[pri:0, instance:tests.RegistrationTests@662b4c69] output={null}], [TestResult name=negativeRegistrationWrongEmail status=SUCCESS method=RegistrationTests.negativeRegistrationWrongEmail(dto.UserDtoLombok)[pri:0, instance:tests.RegistrationTests@662b4c69] output={null}]]]
+2023-10-28 12:54:13,602 INFO m.TestNGListener [TestNGListener.java:58] all code executed: failed tests: [ResultMap map=[]]
