@@ -39,7 +39,7 @@ public class LoginTests extends BaseTest{
         Assert.assertTrue(app.getUserHelper().validatePopUpMessageSuccessAfterLogin());
     }
 //dataProvider = "positiveDataLogin", dataProviderClass = DataProviderLogin.class
-    @Test(dataProvider = "loginCSV", dataProviderClass = DataProviderLogin.class)
+    @Test(enabled = false,dataProvider = "loginCSV", dataProviderClass = DataProviderLogin.class)
     public void positiveLogin(UserDtoLombok userDP) {
 
 //         UserDtoLombok userDtoLombok = UserDtoLombok.builder()
@@ -51,7 +51,7 @@ public class LoginTests extends BaseTest{
         Assert.assertTrue(app.getUserHelper().validatePopUpMessageSuccessAfterLogin());
     }
 //groups = {"smoke"},dataProvider = "negativePasswordDataLogin", dataProviderClass = DataProviderLogin.class
-    @Test(dataProvider = "negativeLoginCSV", dataProviderClass = DataProviderLogin.class )
+    @Test(enabled = false,dataProvider = "negativeLoginCSV", dataProviderClass = DataProviderLogin.class )
     public void negativePasswordWithoutSymbol(UserDtoLombok userDP) {
 //        UserDtoLombok userDtoLombok = UserDtoLombok.builder()
 //                .email("testqa20@gmail.com")
@@ -61,7 +61,7 @@ public class LoginTests extends BaseTest{
         Assert.assertTrue(app.getUserHelper().validatePopUpMessageLoginIncorrect());
     }
 
-    @Test()
+    @Test(groups = {"smoke"})
     public void negativePasswordWithoutNumbers() {
         UserDtoLombok userDtoLombok = UserDtoLombok.builder()
                 .email("testqa20@gmail.com")

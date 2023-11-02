@@ -40,6 +40,7 @@ public class UserHelper extends BaseHelper{
         typeTextBase(inputEmailLoginForm, userDTO.getEmail());
         typeTextBase(inputPasswordLoginForm, userDTO.getPassword());
         clickBase(btnYallaLoginForm);
+        pause(3);
     }
 
     public void login(UserDTOWith userDTO) {
@@ -47,6 +48,7 @@ public class UserHelper extends BaseHelper{
         typeTextBase(inputEmailLoginForm, userDTO.getEmail());
         typeTextBase(inputPasswordLoginForm, userDTO.getPassword());
         clickBase(btnYallaLoginForm);
+        pause(3);
     }
 
     public void loginUserDtoLombok(UserDtoLombok user) {
@@ -54,6 +56,7 @@ public class UserHelper extends BaseHelper{
         typeTextBase(inputEmailLoginForm, user.getEmail());
         typeTextBase(inputPasswordLoginForm, user.getPassword());
         clickBase(btnYallaLoginForm);
+        pause(3);
     }
 
     public boolean validatePopUpMessageSuccessAfterLogin() {
@@ -75,6 +78,7 @@ public class UserHelper extends BaseHelper{
         act.sendKeys(Keys.TAB).perform();
         jsClickBase(btnRegNewUser);
         clickBase(btnUallaReg);
+        pause(3);
     }
 
     public void fillNegativeRegistrationForm(UserDtoLombok user) {
@@ -86,6 +90,7 @@ public class UserHelper extends BaseHelper{
         Actions act = new Actions(driver);
         act.sendKeys(Keys.TAB).perform();
         jsClickBase(btnRegNewUser);
+        pause(3);
 //        clickBase(btnUallaReg);
 //        jsClickBase(btnRegNewUser);
 

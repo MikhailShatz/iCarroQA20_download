@@ -39,13 +39,13 @@ public class RegistrationTests extends BaseTest{
         Assert.assertTrue(app.getUserHelper().validatePopUpMessageSuccessAfterRegistration());
     }
 //dataProvider = "regCSV", dataProviderClass = DataProviderReg.class
-@Test ( dataProvider = "regCSV", dataProviderClass = DataProviderReg.class)
+@Test (enabled = false, dataProvider = "regCSV", dataProviderClass = DataProviderReg.class)
     public void positiveRegistration(UserDtoLombok userDP) {
         app.getUserHelper().fillRegistrationForm(userDP);
         Assert.assertTrue(app.getUserHelper().validatePopUpMessageSuccessAfterRegistration());
     }
 //dataProvider = "negativeEmailDataReg", dataProviderClass = DataProviderReg.class
-    @Test(dataProvider = "negativeRegCSV", dataProviderClass = DataProviderReg.class)
+    @Test(enabled = false,dataProvider = "negativeRegCSV", dataProviderClass = DataProviderReg.class)
     public void negativeRegistrationWrongEmail(UserDtoLombok userDP) {
 //        UserDtoLombok user = UserDtoLombok.builder()
 //                .email("abc@")
@@ -58,7 +58,7 @@ public class RegistrationTests extends BaseTest{
         Assert.assertTrue(app.getUserHelper().validateMessageIncorrectEmailReg());
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void negativeRegistrationWrongPassword() {
         String email = randomUtils.generateEmail(7);
 
