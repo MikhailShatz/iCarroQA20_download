@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7ccdfe9-75ea-401b-81d3-8626cef2bb5b" name="Changes" comment="hw13">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/manager/UserHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/manager/UserHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="e7ccdfe9-75ea-401b-81d3-8626cef2bb5b" name="Changes" comment="hw13 fixed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -299,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698348176711</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="hw13 fixed">
+      <option name="closed" value="true" />
+      <created>1698948066632</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698948066632</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -311,7 +314,8 @@
     <MESSAGE value="upd click with actions" />
     <MESSAGE value="negative password" />
     <MESSAGE value="hw13" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw13" />
+    <MESSAGE value="hw13 fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw13 fixed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

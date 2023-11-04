@@ -8,24 +8,27 @@ import org.testng.annotations.*;
 
 public class RegistrationTests extends BaseTest{
 
-    @BeforeMethod(alwaysRun = true)
-    public void preconditionsLogin() {
-
-        logoutIfLogin();
-
-    }
 
     @AfterMethod(alwaysRun = true)
     public void postConditionsLogin() {
-        if(app.getUserHelper().popUpMessageSuccessAfterRegistrationExist())
+        if(flagPopUp) {
+            flagPopUp = false;
             app.getUserHelper().clickOkPopUpSuccessLogin();
-        app.getUserHelper().pause(5);
-        app.getUserHelper().refresh();
+        }
+        if(flagLogin) {
+            flagLogin = false;
+            app.getUserHelper().logout();
+        }
+//        if(app.getUserHelper().popUpMessageSuccessAfterRegistrationExist())
+//            app.getUserHelper().clickOkPopUpSuccessLogin();
+//        app.getUserHelper().pause(5);
+//        app.getUserHelper().refresh();
 
     }
 
     @Test(groups = {"smoke", "regression"})
     public void positiveRegistration() {
+        app.getUserHelper().refresh();
         String email = randomUtils.generateEmail(7);
 
         UserDtoLombok user = UserDtoLombok.builder()
@@ -36,12 +39,26 @@ public class RegistrationTests extends BaseTest{
                 .build();
 
         app.getUserHelper().fillRegistrationForm(user);
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        flagLogin = true;
+        flagPopUp = true;
         Assert.assertTrue(app.getUserHelper().validatePopUpMessageSuccessAfterRegistration());
     }
 //dataProvider = "regCSV", dataProviderClass = DataProviderReg.class
 @Test (enabled = false, dataProvider = "regCSV", dataProviderClass = DataProviderReg.class)
     public void positiveRegistration(UserDtoLombok userDP) {
         app.getUserHelper().fillRegistrationForm(userDP);
+    try {
+        Thread.sleep(2000);
+    } catch (InterruptedException e) {
+        throw new RuntimeException(e);
+    }
+    flagLogin = true;
+    flagPopUp = true;
         Assert.assertTrue(app.getUserHelper().validatePopUpMessageSuccessAfterRegistration());
     }
 //dataProvider = "negativeEmailDataReg", dataProviderClass = DataProviderReg.class
@@ -55,6 +72,11 @@ public class RegistrationTests extends BaseTest{
 //                .build();
 
         app.getUserHelper().fillNegativeRegistrationForm(userDP);
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         Assert.assertTrue(app.getUserHelper().validateMessageIncorrectEmailReg());
     }
 
@@ -70,6 +92,11 @@ public class RegistrationTests extends BaseTest{
                 .build();
 
         app.getUserHelper().fillNegativeRegistrationForm(user);
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         Assert.assertTrue(app.getUserHelper().validateMessageWrongPasswordReg());
     }
 
@@ -83,6 +110,11 @@ public class RegistrationTests extends BaseTest{
                 .build();
 
         app.getUserHelper().fillNegativeRegistrationForm(user);
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         Assert.assertTrue(app.getUserHelper().validateErrorEmptyEmailReg());
     }
 }

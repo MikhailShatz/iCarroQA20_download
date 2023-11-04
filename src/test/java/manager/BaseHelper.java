@@ -73,13 +73,6 @@ public class BaseHelper {
         int y = (int) (rect.getY() + (rect.getHeight() / down));
         Actions actions = new Actions(driver);
         actions.moveByOffset(x, y).click().perform();
-
-//        Rectangle rectangle = findElementBase(locator).getRect();
-//        int x = rectangle.getX() + (rectangle.getWidth() / right);
-//        int y =  (rectangle.getY() + (rectangle.getHeight() / down));
-//
-//        Actions actions = new Actions(driver);
-//        actions.moveByOffset(x,y).click().perform();
     }
 
     public void pause(int second){
@@ -94,7 +87,21 @@ public class BaseHelper {
         driver.navigate().refresh();;
     }
 
-
+    public boolean isElementByTextExistInTheList(By locator,String text){
+        boolean flag = false;
+        List<WebElement> list = findElementsBase(locator);
+        int size =list.size();
+        if(size==0){
+            return false;
+        }
+        for (WebElement element : list) {
+            if (element.getText().equals(text)) {
+                flag = true;
+                break;
+            }
+        }
+        return flag;
+    }
 
 
 }

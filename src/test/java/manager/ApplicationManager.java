@@ -17,6 +17,7 @@ public class ApplicationManager {
     static String browser;
     EventFiringWebDriver driver;
     UserHelper userHelper;
+    CarHelper carHelper;
 
     public ApplicationManager(){
         browser = System.getProperty("browser", BrowserType.CHROME);
@@ -37,6 +38,7 @@ public class ApplicationManager {
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.register(new WDListener());
         userHelper = new UserHelper(driver);
+        carHelper = new CarHelper(driver);
 
     }
 
@@ -47,6 +49,15 @@ public class ApplicationManager {
     public UserHelper getUserHelper() {
         return userHelper;
     }
+
+    public CarHelper getCarHelper(){return carHelper;}
+
+    public boolean isPageUrlHome(){
+        String urlCurrent = driver.getCurrentUrl();
+        System.out.println(urlCurrent + "--------------url");
+        return urlCurrent.equals(ConfigProperties.getProperty("url"));
+    }
+
 
     public void tearDown() {
         driver.quit();
