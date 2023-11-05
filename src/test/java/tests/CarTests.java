@@ -29,7 +29,7 @@ public class CarTests extends BaseTest{
                 .about("Nice car")
                 .carClass("Premium")
                 .city("Haifa, Israel")
-                .fuel("Hybrid")
+                .fuel("Gas")
                 .manufacture("Ford")
                 .model("Kuga")
                 .pricePerDay("125")

@@ -38,8 +38,8 @@ public class CarHelper extends BaseHelper{
         typeTextBase(inputManufacture, addCarDTO.getManufacture());
         typeTextBase(inputModel, addCarDTO.getModel());
         typeTextBase(inputYear, addCarDTO.getYear());
-        clickBase(inputFuelOption);
-       // typeFuel(addCarDTO.getFuel());
+        //clickBase(inputFuelOption);
+        typeFuel(addCarDTO.getFuel());
         typeTextBase(inputSeats, addCarDTO.getSeats());
         typeTextBase(inputCarClass, addCarDTO.getCarClass());
         typeTextBase(inputSerialNumber, addCarDTO.getSerialNumber());
@@ -59,8 +59,26 @@ public class CarHelper extends BaseHelper{
     }
 
     private void typeFuel(String fuel) {
-        driver.findElement(By.id("//select[@id='fuel']")).sendKeys(fuel);
-        driver.findElement(By.id("//options")).sendKeys(Keys.ENTER);
+        String[] fuelTypes = fuel.split(",");//{"Diesel", "Petrol", "Hybrid", "Electric", "Gas"};;
+        for (String element:fuelTypes) {
+            switch (element) {
+                case "Diesel":
+                    clickBase(By.xpath("//option[@value='Diesel']"));
+                    break;
+                case "Petrol":
+                    clickBase(By.xpath("//option[@value='Petrol']"));
+                    break;
+                case "Hybrid":
+                    clickBase(By.xpath("//option[@value='Hybrid']"));
+                    break;
+                case "Electric":
+                    clickBase(By.xpath("//option[@value='Electric']"));
+                    break;
+                case "Gas":
+                    clickBase(By.xpath("//option[@value='Gas']"));
+                    break;
+            }
+        }
     }
 
 

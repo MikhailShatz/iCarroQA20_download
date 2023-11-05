@@ -33,7 +33,11 @@ public class UserHelper extends BaseHelper{
     By btnOkPopUp = By.xpath("//button[@type='button']");
     By errorMessageWrongEmailReg = By.xpath("//input[@autocomplete='email']/..//div//div");
     By errorMessageIncorrectPasswordReg = By.xpath("//input[@autocomplete='new-password']/..//div//div");
+    By ok = By.xpath("//button[@type='button']");
 
+    public void openLoginPage(){
+        clickBase(btnLoginNavigatorMenu);
+    }
 
     public void login(UserDTO userDTO) {
         clickBase(btnLoginNavigatorMenu);
@@ -58,6 +62,17 @@ public class UserHelper extends BaseHelper{
         clickBase(btnYallaLoginForm);
         pause(3);
     }
+
+    public void loginUserDtoLombokCar(UserDtoLombok user) {
+        //clickBase(btnLoginNavigatorMenu);
+        typeTextBase(inputEmailLoginForm, user.getEmail());
+        typeTextBase(inputPasswordLoginForm, user.getPassword());
+        clickBase(btnYallaLoginForm);
+        pause(3);
+        clickBase(ok);
+    }
+
+
 
     public boolean validatePopUpMessageSuccessAfterLogin() {
         return isTextEqual(textSuccessLoginPopUp, "Logged in success");
